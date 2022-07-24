@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #4c3;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#board{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3,100px);
+}
+
+.box{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #4c3;
+}
