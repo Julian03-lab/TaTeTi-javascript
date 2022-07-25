@@ -5,10 +5,10 @@ body{
     background-color: blueviolet;
 }
 
-ul{
+button{
     padding: 0;
     margin: 0;
-    list-style: none;
+    background-color: transparent;
 }
 
 .container{
@@ -34,5 +34,6 @@ ul{
     color: black;
     height: 100%;
     width: 100%;
-    border: 2px solid #4c3;
+    border: 3px solid #4c3;
 }
+
