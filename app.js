@@ -1,11 +1,15 @@
 const board = document.getElementById("board");
-var change = document.getElementById("change");
+const reboot = document.getElementById("reboot")
+const change = document.getElementById("change");
 const player1 = "❌";
 const player2 = "⭕";
 var turn = 0;
 var finished = false;
 
-
+reboot.addEventListener('click', (e)=>{
+    window.location.reload();
+    
+})
 
 board.addEventListener("click", (e) => {
   if (finished === false) {
